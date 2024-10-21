@@ -53,9 +53,9 @@ async function checkweather(city)
 }
 
 
-searchBox.addEventListener("keydown", function(event) {
+searchBox.addEventListener('keydown', function(event) {
 
-  if (event.key === "Enter") {
+  if (event.key === 'Enter') {
 
     event.preventDefault();
  
